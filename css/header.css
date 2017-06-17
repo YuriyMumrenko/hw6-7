@@ -1,0 +1,30 @@
+header{
+	background: url(../images/bg-header.jpg) no-repeat;	
+	background-size: cover;
+	background-position: center top;
+	height: 847px;
+}
+
+/*=========================================*/
+@media screen and (max-width: 768px) {
+	header{	
+		height: 797px;
+	}
+}
+/*==========================================*/
+@media screen and (max-width: 480px) {
+	header {
+		height: 549px;
+	}
+}
+/*==========================================*/
+@media screen and (max-width: 320px) {
+
+	header {
+		height: 517px;
+	}
+
+}
+/*==========================================*/
+
+
