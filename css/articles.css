@@ -1,15 +1,15 @@
 .articles{
-	height: 608px;
-	background: #f9f9f9;
+    height: 608px;
+    background: #f9f9f9;
 }
 
 
-.articles__article_1{
-	width: 44.2%;
+.article_1{
+    width: 44.2%;
     height: 271px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     background: white;
-    display: block;	
+    display: block; 
     float: left;
     margin-top: 100px;
     margin-left: 2.6%;
@@ -17,8 +17,8 @@
     float: left;
 }
 
-.articles__article_1__caption{
-	text-shadow: 0.5px 0.9px 0 white;
+.article_1__caption{
+    text-shadow: 0.5px 0.9px 0 white;
     font-family: 'League Gothic', arial;
     font-size: 30px;
     font-weight: 400;
@@ -28,9 +28,9 @@
     padding-top: 12px;    
 }
 
-.articles__article_1__caption__icon{
-	display: inline-block;
-	width: 49px;
+.article_1__icon{
+    display: inline-block;
+    width: 49px;
     height: 49px;    
     background: url(../images/img_foto_men.png);
     vertical-align: bottom;
@@ -39,12 +39,12 @@
     margin-right: 2%;
 }
 
-.articles__article_1__caption--color{
-	color: #edbfff;
+.article_1__caption--color{
+    color: #edbfff;
 }
 
-.articles__article_1__text{
-	text-shadow: 0.5px 0.9px 0 white;
+.article_1__text{
+    text-shadow: 0.5px 0.9px 0 white;
     color: #454545;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -55,14 +55,15 @@
     height: 170px;
 }
 
-.articles__article_1:after{
-	content: '';
-	border-top: 21px solid white;
-	border-left: 21px solid transparent;	
-	position: absolute;
-	bottom: -21px;
-	left: 366px;	
+.article_1:after{
+    content: '';
+    border-top: 21px solid white;
+    border-left: 21px solid transparent;    
+    position: absolute;
+    bottom: -21px;
+    left: 366px;    
 }
+
 .slider__radio--article{
     clear: both;
     margin-right: 43%;
@@ -70,8 +71,8 @@
     
 }
 /*===========================================*/
-@media screen and (max-width: 960px) {
-    .articles__article_1:after{
+@media screen and (max-width: 980px) {
+    .article_1:after{
         display: none;
 
     }
@@ -79,30 +80,30 @@
 }
 /*==========================================*/
 @media screen and (max-width: 768px) {
-    .articles__article_1{
+    .article_1{
         width: 43%;    
         margin-left: 3.2%;  
     }
 
-    .articles__article_1__caption__icon{     
+    .article_1__icon{    
         top: 11px;  
         margin-left: -2px; 
         margin-right: 8px;
     }
 
-    .articles__article_1__caption{  
+    .article_1__caption{    
         font-size: 24px; 
         padding-top: 8px;
 
     }
 
-    .articles__article_1__caption--color{
+    .article_1__caption--color{
         display: block;
         margin-left: 18%;
         margin-top: -3px;
     }
 
-    .articles__article_1__text{ 
+    .article_1__text{   
         padding: 1% 8% 4% 12.3%;    
         height: 148px;
     }
@@ -115,7 +116,7 @@
         padding-top: 30px;  
     }
 
-    .articles__article_1{
+    .article_1{
         float: none;
         margin: 0 auto;
         padding: 0;
@@ -130,23 +131,23 @@
 
     }
 
-    .articles__article_1__caption{  
+    .article_1__caption{    
         font-size: 30px;        
     }
 
-    .articles__article_1__caption--color{
+    .article_1__caption--color{
         display: inline-block;
         margin-left: 0;
         margin-top: 14px;
     }
 
-    .articles__article_1 {    
+    .article_1 {    
         width: 90%;
         margin-top: 42px;
         margin-left: 8%;
     }
 
-    .articles__article_1__text{ 
+    .article_1__text{   
         padding: 3% 8% 4% 8.9%;   
         height: 181px;
     }
@@ -164,30 +165,30 @@
 /*==========================================*/
 @media screen and (max-width: 320px) {
 
-    .articles__article_1__caption--color {
+    .article_1__caption--color {
         display: block;
         margin-left: 51px;
         margin-top: -4px;    
     }
 
-    .articles__article_1__caption {
+    .article_1__caption {
         font-size: 24px;
         padding-top: 0;
     }
 
-    .articles__article_1 {
+    .article_1 {
         width: 84%;
         margin-top: 42px;
         margin-left: 12%;
     }
 
-    .articles__article_1__caption__icon {
+    .article_1__icon {
         top: 16px;
         margin-left: -7px;
         margin-right: 6px;
     }
 
-    .articles__article_1__text {
+    .article_1__text {
         padding: 0.5% 10% 4% 14.9%;
         height: 166px;   
     }

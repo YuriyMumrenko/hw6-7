@@ -1,3 +1,5 @@
+
+
 .slider{
 	height: 400px;	
 	background: rgba(0,0,0,0.2);   
@@ -13,14 +15,14 @@
 	float: left;
 }
 
-.slider__text__item__1{
+.slider__text>p:nth-child(1){
 	color: #fefefe;
 	font-family: 'League Gothic', arial;
 	font-size: 60px;
 	font-weight: 400;    
 }
 
-.slider__text__item__2{
+.slider__text>p:nth-child(2){
 	color: #edbfff;
 	font-family: 'League Gothic', arial;
 	font-size: 32px;
@@ -28,7 +30,7 @@
 	margin-top: -8px;
 }
 
-.slider__text__item__3{
+.slider__text>p:nth-child(3){
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -61,11 +63,11 @@
 		margin-left: 3.6%;		
 	}
 
-	.slider__text__item__1{
+	.slider__text>p:nth-child(1){
 		font-size: 48px; 	
 	}
 
-	.slider__text__item__2{
+	.slider__text>p:nth-child(2){
 		font-size: 24px;
 		height: 26px;
 		overflow: hidden;
@@ -73,22 +75,19 @@
 		width: 70%;    
 	}
 
-	.slider__text__item__3{
+	.slider__text>p:nth-child(3){
 		font-size: 16px;
 		line-height: 27px;
 		margin-top: 8px;
 		width: 74%;		
 	}
 
-	.slider_image{	
+	.slider__image{	
 		margin-top: -22px;
 		margin-right: 4.5%;
-	}
-
-	.slider_image{
 		width: 37%;
 		max-width: 100%;
-		height: auto;    
+		height: auto;
 	}
 
 	.slider__radio{
@@ -111,22 +110,23 @@
 @media screen and (max-width: 480px) {
 	
 	.slider{	  
-		margin-top: 30px; 
-		height: 245px;        
+		margin-top: 89px; 
+		height: 245px;          
 	}
 
-	.slider__text__item__3{
+	.slider__text>p:nth-child(3){
 		display: none;
 	}
 
-	.slider__text__item__1{	
+	.slider__text>p:nth-child(1){	
 		font-size: 36px;        
 	}
 
-	.slider__text__item__2{
+	.slider__text>p:nth-child(2){
 		font-size: 18px;  
 		margin-top: -3px;  
 		height: 24px;
+		width: 100%;
 	}
 
 	.slider__text{
@@ -136,11 +136,7 @@
 
 	}
 
-	.slider__text__item__2{
-		width: 100%;
-	}
-
-	.slider_image{
+	.slider__image{
 		width: 41.2%;
 		margin-top: -9px;
 		margin-right: 5%;
@@ -150,6 +146,7 @@
 		top: 269px;
 		left: 43%;
 	}
+
 	.slider__radio--article {     
 		padding-top: 6px;
 		width: 190px;
@@ -160,7 +157,7 @@
 /*==========================================*/
 
 @media screen and (max-width: 320px) {
-	.slider_image{
+	.slider__image{
 		display: none;
 	}
 
@@ -173,7 +170,7 @@
 		margin-left: 19%;
 	}
 
-	.slider__text__item__2 {
+	.slider__text>p:nth-child(2) {
 		width: 68%;
 	}
 

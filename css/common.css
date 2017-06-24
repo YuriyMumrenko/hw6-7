@@ -14,6 +14,7 @@ header,main,article,footer{
 	width: 960px;
 	margin: 0 auto;    
 }   
+html { overflow-x: hidden; }
 
 /*-------------------------------*/
 .wrapper:after{
@@ -32,12 +33,11 @@ header,main,article,footer{
 	display: block;
 }
 
-.slider__text:after{
+/*.slider__text:after{
 	content: '';
 	clear: both;
 	display: block;
-}
-
+}*/
 
 /*-------------------------------*/
 .updates:after{
@@ -50,7 +50,7 @@ header,main,article,footer{
 }
 
 /*====================================*/
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
 	.wrapper{
 		width: 100%;
 		padding-left: 2%;
@@ -67,7 +67,6 @@ header,main,article,footer{
 
 }
 /*====================================*/
-
 
 
 
